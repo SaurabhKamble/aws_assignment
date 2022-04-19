@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color: rgb(228, 228, 228);
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+}
+.todo {
+  background-color: white;
+  width: 500px;
+  height: 70%;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.add-input {
+  display: inline-block;
+  width: 80%;
+  height: 30px;
+}
+.add-task {
+  display: flex;
+  justify-content: space-around;
+}
+.task-list {
+  margin: 20px 0;
+}
+.task-item {
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px 10px;
+  background-color: rgb(5, 95, 5);
+  color: white;
+}
+.task-item:nth-child(2n) {
+  background-color: rgb(148, 7, 148);
+}
